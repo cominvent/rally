@@ -194,9 +194,9 @@ class InProcessLauncher:
             "node_name": "-Des.node.name"
         },
         "5": {
-            "processors": "-Eprocessors",
-            "log_path": "-Epath.logs",
-            "node_name": "-Enode.name"
+            "processors": "-Ees.processors",
+            "log_path": "-Ees.path.logs",
+            "node_name": "-Ees.node.name"
         },
         "master": {
             "processors": "-Ees.processors",
