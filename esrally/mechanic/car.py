@@ -266,6 +266,9 @@ class Car:
 cars = [
     Car(name="defaults"),
     Car(name="4gheap", heap="4g"),
+    Car(name="8gheap", heap="8g"),
+    Car(name="12gheap", heap="12g"),
+    Car(name="16gheap", heap="16g"),
     Car(name="20gheap", heap="20g"),
     Car(name="two_nodes", nodes=2, processors=sysstats.logical_cpu_cores() // 2),
     Car(name="verbose_iw", logging_config={
